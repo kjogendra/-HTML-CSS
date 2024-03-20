@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: .5fr 1fr;
+            height: 100vh;
+            position: fixed;
+
+
+        }
+
+        div:nth-child(1) {
+            background-color: #FFCD9E;
+        }
+
+        div:nth-child(2) {
+            background-color: #FFCD9E;
+        }
+
+        .first {
+            margin-left: 70px;
+            margin-right: 200px;
+            padding: 20px;
+        }
+
+        #email {
+            border: 2px solid black;
+            border-radius: 8px;
+            height: 30px;
+            width: 180px;
+            color: #888888;
+        }
+
+        .registerbtn {
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            width: 100px;
+            height: 34px;
+        }
+
+        #h6 {
+            color: #FFFFFF;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .image {
+
+            background-color: #FFCD9E;
+        }
+
+        img {
+
+            height: 350px;
+            width: 400px;
+        }
+
+        .left {
+            background-color: black;
+            color: white;
+        }
+
+        .LeftItem {
+            list-style: none;
+            margin: 15px 4px 18px 59px;
+            padding: 30px;
+
+        }
+
+        .rightItem {
+            list-style: none;
+            margin: 22px 72px 18px 59px;
+            padding: 30px;
+            text-align-last: right;
+        }
+
+        li {
+            padding: 5px;
+        }
+
+        .photo {
+            height: 20px;
+            width: 20px;
+            margin: 5px;
+            color: #FFCD9E;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="first">
+
+            <h2>An inspiring design delivered to your inbox every morning</h2>
+            <p>Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring
+                one every day to your inbox</p>
+            <h4>Show me how it looks</h4>
+            <input type="email" id="email" name="email" placeholder="&nbsp;&nbsp;Your e-mail address">
+            <button type="submit" class="registerbtn">Register Now</button>
+            <h6 id="h6">Free - No Spam - No Data Sharing</h6>
+        </div>
+        <div class="image">
+            <img src="test.png" alt="Image not loaded">
+        </div>
+        <div class="left">
+            <ul class="LeftItem">
+                <li>Prompt Generator</li>
+                <li>Dwep Daily</li>
+                <li>All Contributors</li>
+                <li>Your Data on Dweep.io</li>
+                <li>Contribute to Dweep</li>
+            </ul>
+
+        </div>
+        <div class="left">
+            <ul class="rightItem">
+                Dweep.io</li>
+                <li>Made with love in India</li>
+                <li><img class="photo" src="insta.png" alt="page loading">
+                    <img class="photo" src="link.png" alt="page loading">
+                </li>
+                <li><br></li>
+                <li>hello@dweep.io</li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
